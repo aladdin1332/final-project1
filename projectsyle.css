@@ -1,0 +1,235 @@
+body{
+    background: rgb(158, 157 , 161);
+}
+
+.menu{
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+    
+}
+
+img{
+    width: 250px;
+
+}
+.header{
+    margin: 10px;
+
+}
+li{
+    transition: all 1s;
+    display: inline;
+    text-align: center;
+    font-family: david;
+    font-size: 23px;
+    size: 100px;
+    text-decoration: none;
+    height: 50px;
+    width: 150px;
+    display: block;
+    color: #fff;
+    border: 3px solid rgba(6, 3, 51, 0.5);
+    border-radius: 3px; 
+    margin: 1px;   
+}
+li:hover
+{
+    transform: scale(1.1);
+ 
+}
+.menu{
+margin-top: 30px;
+margin-left: 30px;
+margin-bottom: 30px;
+font-size: 20px;
+
+}
+.hero
+{
+    background: url("images/image1.jpg") no-repeat center center     ;
+    background-size: cover;
+    width: 100%;
+    height: calc(100vh - 30px);
+    font-style: italic;
+    text-align: center; color: darkred;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    text-shadow: gray 2px 2px;
+
+}
+
+.main2{
+    background: url("images/9412.jpg")no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    padding-bottom: 50px;
+    text-align: center;
+    
+}
+
+.main2 p{
+    text-align: center;
+    text-shadow: blue 1px 1px;
+    font-size: 17px;
+}
+.main2 h2{
+    text-align: center;
+    text-shadow: blue 2px 2px;
+
+}
+.About{
+    margin-top: 20px;
+}
+.About p{
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.header2{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.services{
+    display: flex;
+    flex-direction: row;
+    
+}
+.services-discription{
+    text-align: center;
+}
+.services .container{
+    display: flex;
+    flex-direction: row;
+}
+  
+.footer{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.footer .container{
+    display: flex;
+}
+  
+.firstpic{
+    margin-bottom: 100px;
+}
+
+.subscribe{
+    margin: 100px;
+}
+
+.subscribe  a {
+    background-color: red;
+  box-shadow: 0 5px 0 darkred;
+  color: white;
+  padding: 1em 1.5em;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.subscribe a:hover {
+  background-color: #ce0606;
+}
+
+.subscribe a:active {
+  box-shadow: none;
+  top: 3px;
+}
+.image {
+    display: block;
+    
+    
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: red;
+
+  }
+  
+.hover1:hover .overlay {
+    opacity: 1;
+    
+  }
+  
+  .text {
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .hover1{
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .row{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+  }
+.firstpic{
+    margin-top: 20px;
+}
+
+.contact{
+background:white url("images/1224.jpeg") no-repeat center center;
+background-size: cover;
+width: 100%;
+height: calc(85vh - 5px);
+opacity:0.7;
+
+
+   
+}
+.row{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.contact h1{
+display: flex;
+justify-content: center;
+align-items: center;
+color:red;
+margin-bottom:  50px; ;
+margin-top: 50px;
+}
+.logo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

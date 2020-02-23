@@ -1,0 +1,12 @@
+body{
+    background-image: url(images/register.jpeg);
+    background-size: cover;
+    color: blue;
+}
+.boxing{
+    border: 10px solid grey;
+    margin: 5px;
+    padding: 10px;
+    
+    
+}
